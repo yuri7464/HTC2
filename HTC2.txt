@@ -1,0 +1,132 @@
+Escrever um algoritmo que leia dois valores inteiros distintos e informe qual é o maior.
+
+
+
+atividade 1
+
+programa
+{
+//vacinar adultos acima de 50 anos
+//não vacinar adultos acima de 50 anos
+	
+	funcao inicio()
+	{
+inteiro idade
+
+
+		escreva("informe idade: ")
+		leia(idade)
+
+     		se (idade>50)
+     		{
+     			escreva("está apto a ser vacinado")
+     			}
+     		senao{
+     			escreva("nao está apto a ser vacinado")
+     			
+     			}
+     		
+     		
+     				
+     			
+     	
+     
+     
+     
+		
+	}
+}
+
+
+ATIVIDADE 2
+
+programa
+{
+//escrever um algoritmo que leia dois valores inteiros distinstos e informe qual o maior
+	
+	funcao inicio()
+	{
+	inteiro 
+		valor1, valor2, soma
+			escreva("informe o primeiro valor: ")
+			leia(valor1)
+
+			escreva("informe o segundo valor: ")
+			leia(valor2)
+
+		 	se(valor1>valor2)
+		 	{
+		 		escreva(valor1," é maior que o ", valor2)
+		 		
+		 		}
+		 		senao{
+		 			escreva(valor2," é maior que o",valor1)
+		 			}
+		 	
+	
+	}
+}
+
+
+
+
+
+
+
+
+ATIVIDADE1
+programa
+{
+	
+//Em uma fábrica, uma máquina precisa de manutenção sempre que o número de peças defeituosas supera 10% da produção. Dados o total de peças produzidas e o total de peças defeituosas, informe se a máquina precisa de manutenção.
+
+	
+	funcao inicio()
+	{
+real
+	num1, num2, por=0.10, sim
+	escreva("o numero de peças boas")
+	leia(num1)
+	escreva("o numero de peças ruins")
+	leia(num2)
+	
+
+	se (num2/num1>por) 
+	{
+	     escreva(num1,"Precisa de manutenção")
+	     }
+	     senao
+	     escreva(num2,"não precisa de manutenção")
+	     
+		
+	}
+}
+
+
+
+
+
+
+ATIVIDADE 2
+
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro num1, saque, saldo=1000
+	 escreva("o valor do saldo disponivel é: ")
+	 leia(num1)
+
+	 se(num1<1000){
+	 	escreva("não realizar o saque")
+	 }
+	 	senao{
+	 		escreva("realizar o saque")
+	 		}
+	 		
+	 			
+	
+	 	
+	 	}
+	}
